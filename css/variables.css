@@ -1,0 +1,19 @@
+:root {
+  --orange-500: hsl(25, 97%, 53%);
+  --white: hsl(0, 100%, 100%);
+  --grey-500: hsl(217, 12%, 63%);
+  --grey-900: hsl(213, 19%, 18%);
+  --grey-950: hsl(216, 12%, 8%);
+
+  --font-sm: 1rem;
+  --font-md: 1.5rem;
+  --font-lg: 2.5rem;
+
+  --sp-75: 0.75rem;
+  --sp-100: 1rem;
+  --sp-150: 1.5rem;
+  --sp-200: 2rem;
+  --sp-400: 4rem;
+
+  --font-main: "Overpass", Helvetica, Arial;
+}
