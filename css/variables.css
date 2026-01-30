@@ -5,9 +5,9 @@
   --grey-900: hsl(213, 19%, 18%);
   --grey-950: hsl(216, 12%, 8%);
 
-  --font-sm: 1rem;
-  --font-md: 1.5rem;
-  --font-lg: 2.5rem;
+  --text-sm: 1rem;
+  --text-md: 1.5rem;
+  --text-lg: 2.5rem;
 
   --sp-75: 0.75rem;
   --sp-100: 1rem;
