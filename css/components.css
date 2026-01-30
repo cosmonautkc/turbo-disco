@@ -31,3 +31,19 @@ fieldset {
   left: 0;
   padding: var(--sp-100);
 }
+
+.submit-btn {
+  background-color: var(--orange-500);
+  border: none;
+  border-radius: 25px;
+  padding-block: var(--sp-75);
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: var(--white);
+}
