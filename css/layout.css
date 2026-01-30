@@ -1,0 +1,19 @@
+main {
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.rating-component,
+.thank-you-component {
+  width: min(25rem, 90%);
+  background: radial-gradient(
+    circle at top,
+    hsl(213, 19%, 18%),
+    hsl(213, 19%, 14%),
+    hsl(213, 19%, 10%)
+  );
+  margin-inline: auto;
+  padding: var(--sp-150);
+  border-radius: 15px;
+}
