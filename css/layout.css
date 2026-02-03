@@ -18,17 +18,21 @@ main {
   border-radius: 15px;
 }
 
-/* .rating-component {
-  display: none;
-} */
-
-.rating-btns {
+.rating-component .rating-btns {
   display: grid;
   grid-template-columns: repeat(5, auto);
   place-items: center;
 }
 
+.rating-component[aria-hidden="true"] {
+  display: none;
+}
+
 .thank-you-component {
+  display: none;
+}
+
+.thank-you-component[aria-hidden="false"] {
   display: grid;
   place-items: center;
   text-align: center;
