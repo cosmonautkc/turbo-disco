@@ -1,3 +1,7 @@
 .rating-info {
   margin-bottom: var(--sp-150);
 }
+
+.thank-you-img {
+  margin: var(--sp-100);
+}
