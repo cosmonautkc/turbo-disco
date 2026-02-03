@@ -42,6 +42,16 @@ label {
   cursor: pointer;
 }
 
+label:hover {
+  background-color: var(--orange-500);
+  color: var(--grey-950);
+}
+
+label:has(input:checked) {
+  background-color: var(--white);
+  color: var(--grey-950);
+}
+
 .rating-btn {
   position: absolute;
   opacity: 0;
