@@ -17,3 +17,9 @@ main {
   padding: var(--sp-150);
   border-radius: 15px;
 }
+
+.rating-btns {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  place-items: center;
+}
