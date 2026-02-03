@@ -64,3 +64,11 @@ label {
 .submit-btn:hover {
   background-color: var(--white);
 }
+
+.rating {
+  border-radius: 20px;
+  padding: var(--sp-25) var(--sp-75);
+  background-color: hsl(217, 12%, 63%, 0.06);
+  color: var(--orange-500);
+  margin: var(--sp-75);
+}
