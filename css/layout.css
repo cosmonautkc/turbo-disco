@@ -18,8 +18,18 @@ main {
   border-radius: 15px;
 }
 
+/* .rating-component {
+  display: none;
+} */
+
 .rating-btns {
   display: grid;
   grid-template-columns: repeat(5, auto);
   place-items: center;
+}
+
+.thank-you-component {
+  display: grid;
+  place-items: center;
+  text-align: center;
 }
