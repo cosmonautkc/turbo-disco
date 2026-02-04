@@ -7,4 +7,12 @@ form.addEventListener("submit", (e) => {
   const thanks = document.querySelector(".thank-you-component");
 
   thanks.setAttribute("aria-hidden", "false");
+
+  const ratingBtn = document.querySelector("input:checked");
+
+  let yourRatingValue = ratingBtn.getAttribute("value");
+
+  const yourRating = document.getElementById("your-rating");
+
+  yourRating.textContent = yourRatingValue;
 });
