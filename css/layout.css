@@ -6,7 +6,7 @@ main {
 
 .rating-component,
 .thank-you-component {
-  width: min(25rem, 90%);
+  width: min(40ch, 90%);
   background: radial-gradient(
     circle at top,
     hsl(213, 19%, 18%),
@@ -15,7 +15,7 @@ main {
   );
   margin-inline: auto;
   padding: var(--sp-150);
-  border-radius: 15px;
+  border-radius: clamp(15px, 3vw, 30px);
 }
 
 .rating-component .rating-btns {
