@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,11 +12,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -24,90 +20,63 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
+- View the optimal layout for the app depending on their device’s screen size
+- See hover states for all interactive elements
 - Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
-
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+- See a “Thank you” state after submitting a rating
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/interactive-rating-component-i8ZrcwUWtq
+- Live Site URL: https://cosmonautkc.github.io/turbo-disco/
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- Semantic HTML5
+- CSS custom properties (design tokens)
+- Flexbox & Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Vanilla JavaScript
+- ARIA attributes
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project was mainly about **repeating and reinforcing JavaScript basics**, rather than trying to learn new advanced concepts.
 
-To see how you can add code snippets, see below:
+Key things I worked on:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- **DOM selection and events**  
+  I used `querySelector`, `addEventListener`, and form submission handling to control the UI state.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- **Updating content dynamically**  
+  I used `textContent` to insert the selected rating into the thank-you message, which I hadn’t used much before.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- **State switching with attributes**  
+  I toggled between the rating state and thank-you state using `aria-hidden` and CSS, instead of JavaScript-heavy logic.
+
+- **Styling radio buttons accessibly**  
+  I hid the native radio inputs and styled their labels, using `:has(input:checked)` for visual feedback.
+
+- **Choosing simple solutions over clever ones**  
+  Instead of using pseudo-elements for icon backgrounds, I wrapped images in a `<span>` to keep things predictable and readable. I had tried to use psuedo elements to drill the understanding in regardless of efficiency but as I am confident, I decided to refactor parts of my code.
+
+- **Using `clamp()` practically**  
+  I used `clamp()` for things like border-radius to make the component scale nicely without overthinking it.
+
+- **ARIA awareness (with room to improve)**  
+  I used ARIA attributes even though I know they’re not perfectly applied yet. This helped highlight accessibility as something to improve in future projects.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I want to:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- Revisit ARIA usage and understand how to use it to descibe state instead of be the state
+- Explore different ways of structuring JS, while still keeping things simple
+- Keep reinforcing core concepts of JS
+- Get more confident explaining why I write code a certain way using jargon
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor – [@cosmonautkc](https://www.frontendmentor.io/profile/cosmonautkc)
