@@ -3,7 +3,8 @@
   color: var(--white);
   font-size: var(--text-md);
   font-weight: 500;
-  padding: var(--sp-100) 0;
+  padding: 0;
+  margin-bottom: var(--sp-75);
 }
 
 label {
@@ -37,7 +38,7 @@ label:has(input:checked) {
   border: none;
   border-radius: 25px;
   padding-block: var(--sp-75);
-  margin-top: var(--sp-150);
+  margin: var(--sp-150) 0 var(--sp-50);
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 3px;

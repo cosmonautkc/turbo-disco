@@ -10,10 +10,11 @@
   width: 2.5rem;
   display: grid;
   place-items: center;
+  margin-bottom: var(--sp-125);
 }
 
 .rating-info {
-  margin-bottom: var(--sp-150);
+  margin-bottom: var(--sp-125);
 }
 
 .thank-you-img {
