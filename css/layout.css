@@ -28,6 +28,12 @@ main {
   display: none;
 }
 
+.rating-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .thank-you-component {
   display: none;
 }
