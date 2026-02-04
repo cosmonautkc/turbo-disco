@@ -1,3 +1,17 @@
+.star-icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+.star-wrapper {
+  background-color: hsl(0, 0%, 100%, 0.03);
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: grid;
+  place-items: center;
+}
+
 .rating-info {
   margin-bottom: var(--sp-150);
 }
