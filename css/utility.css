@@ -15,6 +15,7 @@
 
 .rating-info {
   margin-bottom: var(--sp-125);
+  line-height: 160%;
 }
 
 .thank-you-img {
